@@ -1,0 +1,24 @@
+.img1 {
+  float: left;
+  width: 500px;
+  margin-left: 50px;
+}
+
+.img2 {
+  float: right;
+  margin-right: 50px;
+  width: 400px;
+}
+
+@media screen and (max-width: 996px) {
+  .img1 {
+    width: 300px;
+    float: none;
+    margin: 0;
+  }
+  .img2 {
+    width: 300px;
+    float: none;
+    margin: 0;
+  }
+}

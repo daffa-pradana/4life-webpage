@@ -1,0 +1,23 @@
+.cta-btn {
+  text-decoration: none;
+  font-family: "font-bold";
+  color: var(--clr-dark-blue);
+  background-color: var(--clr-light-yellow);
+  padding: 10px 20px;
+  border: 3px solid var(--clr-dark-blue);
+  border-radius: 10px;
+  margin-top: 60px;
+  font-size: 16px;
+}
+
+.cta-btn:hover {
+  background-color: var(--clr-dark-yellow);
+}
+
+@media screen and (max-width: 768px) {
+  .cta-btn {
+    padding: 8px 18px;
+    border: 2px solid var(--clr-dark-blue);
+    font-size: 12px;
+  }
+}

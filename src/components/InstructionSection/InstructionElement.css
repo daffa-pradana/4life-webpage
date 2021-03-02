@@ -1,0 +1,15 @@
+.illustration {
+  width: 500px;
+}
+
+@media screen and (max-width: 768px) {
+  .illustration {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .illustration {
+    width: 300px;
+  }
+}

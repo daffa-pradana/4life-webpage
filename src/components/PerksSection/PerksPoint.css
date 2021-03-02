@@ -1,0 +1,34 @@
+.point-icon {
+  width: 28px;
+}
+.point-header {
+  font-family: "font-bold";
+  font-size: 13px;
+  margin-top: 5px;
+  letter-spacing: 1px;
+}
+.point-text {
+  font-family: "font-regular";
+  color: var(--clr-dark-grey);
+  font-size: 11px;
+  margin-top: 8px;
+  line-height: 1.8;
+  text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+  .point-header {
+    text-align: center;
+    font-size: 10px;
+    margin-top: 10px;
+  }
+  .point-text {
+    text-align: center;
+    font-size: 9px;
+  }
+  .point-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

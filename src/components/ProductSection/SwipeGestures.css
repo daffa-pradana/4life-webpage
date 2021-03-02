@@ -1,0 +1,21 @@
+.gesture-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+.gesture-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 170px;
+}
+.gesture-icon {
+  width: 25px;
+}
+.gesture-text {
+  font-family: "font-medium";
+  color: var(--clr-dark-blue);
+  margin-top: 5px;
+  margin-left: 10px;
+  font-size: 12px;
+}

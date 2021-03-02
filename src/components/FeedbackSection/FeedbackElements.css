@@ -1,0 +1,25 @@
+.quotes-up {
+  position: absolute;
+  top: -50px;
+  left: 50px;
+  width: 150px;
+}
+.quotes-down {
+  position: absolute;
+  bottom: 30px;
+  right: 100px;
+  width: 50px;
+}
+.swiper-slides {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .swiper-slides {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+  }
+}
