@@ -30,7 +30,9 @@ const Sidebar = ({ isOpen, toggle }) => {
                             color: 'var(--clr-dark-blue)',
                             cursor: 'pointer'
                         }}
-                        href="4life.com"
+                        href="https://indonesia.4life.com/11277817/shop"
+                        target="_blank"
+                        rel="noreferrer"
                         onClick={toggle}
                     >
                         Belanja
