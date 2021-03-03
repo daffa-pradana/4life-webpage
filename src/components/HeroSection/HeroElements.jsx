@@ -5,28 +5,18 @@ export const HeroContainer = styled.div`
   display: flex;
   justify-content: center;
   padding-top: 100px;
-  height: 800px;
+  height: 600px;
   position: relative;
   z-index: 1;
 
   @media screen and (max-width: 768px) {
     padding-top: 40px;
+    height: 800px;
   }
 
   @media screen and (max-width: 480px) {
-    height: 700px;
+    height: 650px;
   }
-`;
-
-export const HeroBackground = styled.div`
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
 `;
 
 export const HeroContent = styled.div`
@@ -86,12 +76,13 @@ export const HeroSubheader = styled.p`
   color: var(--clr-dark-grey);
   font-size: 18px;
   text-align: left;
-  max-width: 600px;
+  width: 100%;
   letter-spacing: 1.8px;
   line-height: 1.8;
   font-family: "font-regular";
 
   @media screen and (max-width: 768px) {
+
     font-size: 18px;
     text-align: center;
   }

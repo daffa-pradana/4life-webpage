@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Fade from 'react-reveal/Fade'
 import {
   HeroContainer,
-  HeroBackground,
   HeroContent,
   HeroLeftContent,
   HeroRightContent,
@@ -10,45 +9,15 @@ import {
   HeroSubheader,
   HeroBtnWrapper,
 } from "./HeroElements";
-import imgBackground from "../../images/backgrounds/hero-bg.png";
 import imgProduct from "../../images/backgrounds/hero-product.png";
 
 import './HeroElements.css'
 
 const HeroSection = () => {
-  const [width, setWidth] = useState(window.innerWidth);
-  const checkWidth = () => {
-    setWidth(window.innerWidth);
-  };
-  useEffect(() => {
-    window.addEventListener("resize", checkWidth);
-    return () => {
-      window.removeEventListener("resize", checkWidth);
-    };
-  });
 
   return (
     <HeroContainer id="home">
-      {/* Background */}
-      <HeroBackground>
-        {width < 768 ? (
-          ""
-        ) : (
-          <img
-            style={{
-              position: "absolute",
-              right: "0",
-              top: "0",
-            }}
-            src={imgBackground}
-            alt="bg"
-          />
-        )}
-      </HeroBackground>
-
-      {/* Content */}
       <HeroContent>
-        
         <HeroLeftContent>
           <Fade>
           <HeroHeader>Optimalkan Imunitas Anda dan Keluarga</HeroHeader>
@@ -69,15 +38,9 @@ const HeroSection = () => {
           </Fade>
         </HeroLeftContent>
         <HeroRightContent>
-          <Fade bottom>
+          <Fade>
           <img
-            style={
-              width > 768
-                ? {}
-                : {
-                    width: "200px",
-                  }
-            }
+            style={{width: '100%'}}
             src={imgProduct}
             alt="product"
           />
