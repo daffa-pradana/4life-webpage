@@ -103,6 +103,9 @@ const Footer = () => {
                 <BottomColumn>
                     <Socials>
                         <img
+                            onClick={() =>
+                                window.open('https://www.facebook.com/4life/', '_blank')
+                            }
                             style={{
                                 width: '20px',
                                 marginRight: '20px',
@@ -112,6 +115,9 @@ const Footer = () => {
                             alt="facebook"
                         />
                         <img
+                            onClick={() =>
+                                window.open('https://twitter.com/4life', '_blank')
+                            }
                             style={{
                                 width: '20px',
                                 marginRight: '20px',
