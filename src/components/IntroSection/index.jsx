@@ -6,8 +6,7 @@ import {
     IntroHeader,
     IntroText
 } from './IntroElements'
-
-import './IntroElements.css'
+import CTAButton from '../CTAButton'
 
 const IntroSection = () => {
     return (
@@ -23,14 +22,11 @@ const IntroSection = () => {
                         anda sudah mendapatkan ID member dan bisa masuk (Login) ke website resmi 4Life. Kartu
                         member akan disertakan kedalam paket pengiriman barang.
                     </IntroText>
-                    <a
-                        className='cta-btn'
-                        href="https://api.whatsapp.com/send?phone=6287884812997&text=Halo%20Saya%20tertarik%20untuk%20menjadi%20member%204Life."
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        Join Member
-                    </a>   
+                    <CTAButton 
+                        text="Join Member Sekarang"
+                        link="https://api.whatsapp.com/send?phone=6287884812997&text=Halo%20Saya%20tertarik%20untuk%20menjadi%20member%204Life."
+                        mTop='60px'   
+                    />
                 </IntroWrapper>
                 </Fade>
             </IntroContainer>

@@ -23,9 +23,7 @@ import SwipeGestures from './SwipeGestures'
 
 // Data
 import products from './products-data'
-
-// Style
-import './ProductElements.css'
+import CTAButton from '../CTAButton';
 
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y])
 
@@ -90,12 +88,10 @@ const ProductSection = () => {
                     </ProductDescription>
 
                     {/* CTA Button */}
-                    <a
-                        className='cta-btn'
-                        href="4life.com"
-                    >
-                        Beli Produk
-                    </a>
+                    <CTAButton
+                        text="Beli Produk Sekarang"
+                        link="https://api.whatsapp.com/send?phone=6287884812997&text=Halo%20Saya%20tertarik%20untuk%20membeli%20produk%20ini%20segera."
+                    />
                 </ProductWrapper>
             </ProductContainer>
         </>

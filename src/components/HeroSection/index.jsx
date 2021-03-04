@@ -9,9 +9,8 @@ import {
   HeroSubheader,
   HeroBtnWrapper,
 } from "./HeroElements";
+import CTAButton from '../CTAButton'
 import imgProduct from "../../images/backgrounds/hero-product.png";
-
-import './HeroElements.css'
 
 const HeroSection = () => {
 
@@ -26,14 +25,10 @@ const HeroSection = () => {
             Manfaatnya!
           </HeroSubheader>
           <HeroBtnWrapper>
-            <a
-              className='hero-btn'
-              href="https://api.whatsapp.com/send?phone=6287884812997&text=Hallo%20Saya%20tertarik%20untuk%20membeli%20produk%20ini%20segera."
-              target="_blank"
-              rel="noreferrer"
-            >
-              Beli Produk
-            </a>
+            <CTAButton
+              text="Beli Produk Sekarang"
+              link="https://api.whatsapp.com/send?phone=6287884812997&text=Halo%20Saya%20tertarik%20untuk%20membeli%20produk%20ini%20segera."
+            />
           </HeroBtnWrapper>
           </Fade>
         </HeroLeftContent>

@@ -5,7 +5,7 @@ export const ProductContainer = styled.div`
     background-color: #ffffff;
     
     @media screen and (max-width: 768px) {
-        /* work on this later */
+        padding: 100px 0;
     }
 `
 
@@ -19,10 +19,10 @@ export const ProductWrapper = styled.div`
     justify-items: center;
     align-items: center;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
 
     @media screen and (max-width: 768px) {
-        height: 700px;
+        height: 800px;
     }
 `
 
@@ -53,12 +53,10 @@ export const ProductDescription = styled.p`
     @media screen and (max-width: 768px) {
         width: 80%;
         font-size: 14px;
-        margin-top: 20px;
     }
 
     @media screen and (max-width: 460px) {
         width: 80%;
         font-size: 11px;
-        margin-top: 30px;
     }
 `
