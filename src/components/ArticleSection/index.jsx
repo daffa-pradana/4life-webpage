@@ -67,7 +67,7 @@ const ArticleSection = () => {
                                 Agar daya tahan tubuh optimal, asupan gizi dari makanan
                                 jarian saja tidak cukup. Kita perlu suplemen yang cerdas
                                 dan unik yang dapat mengedukasi sel imun, sehingga sel
-                                imun kita mampu <b>MENGENALI, MERANGSANG</b> dan <b>MENGINGAT</b> ancaman-ancaman kesehatan di kemudian
+                                imun kita mampu <b>MENGENALI, MERANGSANG</b> dan <b>MENGINGAT</b> ancaman - ancaman kesehatan di kemudian
                                 hari.
                             </Paragraph>
                             </Fade>
